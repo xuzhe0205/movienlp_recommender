@@ -60,22 +60,28 @@ Testing set: 20%
 
 * Main page
 
-<img src="https://drive.google.com/uc?export=view&id=1CRt5SK3j8X-ou1dJKnc5RfMDLZ6wRG1j"
+<img src="https://drive.google.com/uc?export=view&id=1K9QRsKb7aGuSDCHGJP1hWyjuPRDxCYQ3"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-
 
 * Dashboard with random subset of movies will show if and only if user logs in, here user "xuzhe0205" has logged in, now he can visit the dashboard and browse movies
 
 
+<img src="https://drive.google.com/uc?export=view&id=1CRt5SK3j8X-ou1dJKnc5RfMDLZ6wRG1j"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 * Alternatively, user can also browse movies by searching keywords, here "xuzhe0205" searched "harry"
 
-
+<img src="https://drive.google.com/uc?export=view&id=1pwooNdLkZux6RsmO6dsZgofuq1LDRd6V"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 * Get recommended movies by clicking on any movie item from dashboard or page with searched movies results. Here "xuzhe0205" click on one of the harry potter movies, and the recommended movies that are similar to the query movie show below as they would very likely match user's taste in movies.
 
-
+<img src="https://drive.google.com/uc?export=view&id=1fMZnxhaxXu38AsBAwBPCEZ5mOZYxf3a9"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 ## Results & Comparison
 
