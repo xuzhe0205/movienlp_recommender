@@ -60,8 +60,9 @@ Testing set: 20%
 
 * Main page
 
-
-[![Main Page: ](https://drive.google.com/open?id=1CRt5SK3j8X-ou1dJKnc5RfMDLZ6wRG1j)]
+<img src="https://drive.google.com/open?id=1CRt5SK3j8X-ou1dJKnc5RfMDLZ6wRG1j"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 
 * Dashboard with random subset of movies will show if and only if user logs in, here user "xuzhe0205" has logged in, now he can visit the dashboard and browse movies
