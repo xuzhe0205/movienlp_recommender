@@ -56,6 +56,22 @@ Testing set: 20%
 
 * Type ```python app.py```, and press enter to run
 
+### Web app walk-through
+
+* Main page
+
+
+
+* Dashboard with random subset of movies will show if and only if user logs in, here user "xuzhe0205" has logged in, now he can visit the dashboard and browse movies
+
+
+
+* Alternatively, user can also browse movies by searching keywords, here "xuzhe0205" searched "harry"
+
+
+
+* Get recommended movies by clicking on any movie item from dashboard or page with searched movies results. Here "xuzhe0205" click on one of the harry potter movies, and the recommended movies that are similar to the query movie show below as they would very likely match user's taste in movies.
+
 
 
 ## Results & Comparison
