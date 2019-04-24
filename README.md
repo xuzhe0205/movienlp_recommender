@@ -60,7 +60,7 @@ Testing set: 20%
 
 * Main page
 
-<img src="http://4.bp.blogspot.com/-CWPzr-iDdqA/UK2JcK-TLmI/AAAAAAAAA_s/hvhC4LFDYYI/s1600/run%2Bforest.jpg"
+<img src="https://drive.google.com/uc?export=view&id=1CRt5SK3j8X-ou1dJKnc5RfMDLZ6wRG1j"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
