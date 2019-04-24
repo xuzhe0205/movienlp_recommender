@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1>My Movies</h1>
+    <ul class="list-group">
+        {% for movie in movies %}
+            <li class="list-group-item">
+                <a href = 'movie/{{movie.id}}'>
+                    {{movie.title}}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+    
+{% endblock %}

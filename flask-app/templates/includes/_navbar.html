@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Movie Recommender</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/mymovies">My Movies</a>
+            </li> -->
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li> -->
+            
+        </ul>
+        {% if session.logged_in %}
+            <form action = "http://127.0.0.1:5000/search_movie" method = "POST" class="form-inline justify-content-center"  style = "display: inline-block; width: 30%; margin-right: 10%;">
+                <input class="form-control my-2 my-sm-0" style = "width: 80%" name = "query_movie" type="text" placeholder="Search" aria-label="Search" value={{request.form.movie_name}} >
+                <input type="submit" class="btn btn-primary" value="Search">
+                <!-- <i class="glyphicon glyphicon-search"></i> -->
+            </form>
+        {% endif %}
+        
+        <ul class="nav navbar-nav navbar-right">
+            {% if session.logged_in %}
+                <li class="nav-item active" style="margin-right: 80px; margin-left:55px; font-family: Marker Felt, fantasy">
+                    <a class="nav-link">Welcome, {{session.username}} !</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/dashboard">Dashboard</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/logout">Logout</a>
+                </li>
+            {% else %}
+                <li class="nav-item active">
+                    <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/register">Register</a>
+                </li>
+            {% endif %}
+            
+        </ul>
+    </div>
+</nav>
